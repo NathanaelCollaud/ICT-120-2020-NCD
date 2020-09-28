@@ -1,6 +1,8 @@
 <?php require_once "includes/store.php"; ?>
+<div><img src="/pictures/logo.jpg"><h1>Voyage d'étude</h1></div>
 Cette page rassemble toutes les informations nécessaires pour l'organisation de notre voyage d'étude en troisième année.
 <form method="post">
+
     Les gens:<br>
     Adresse:<input type="text" id="txtAddress00" name="txtAddress[00]">Code postal:<input type="text" id="txtNPA00" name="txtNPA[00]">Ville:<input type="text" name="txtCity[00]" id="txtCity00">Prénom: <input type="text" name="txtFirstName[00]" id="txtFirstName00">Nom:<input type="text" name="txtLastName[00]" id="txtLastName00">Numéro de portable:<input type="text" name="txtPhone[00]" id="txtPhone00">Prof ou élève:<input type="text" name="txtprof[00]" id="txtprof00"><br>
     Adresse:<input type="text" id="txtAddress01" name="txtAddress[01]">Code postal:<input type="text" id="txtNPA01" name="txtNPA[01]">Ville:<input type="text" name="txtCity[01]" id="txtCity01">Prénom: <input type="text" name="txtFirstName[01]" id="txtFirstName01">Nom:<input type="text" name="txtLastName[01]" id="txtLastName01">Numéro de portable:<input type="text" name="txtPhone[01]" id="txtPhone01">Prof ou élève:<input type="text" name="txtprof[01]" id="txtprof01"><br>
